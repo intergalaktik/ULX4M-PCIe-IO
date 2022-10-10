@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name PCIexpress)(type Legacy)(uri ${KIPRJMOD}/../Library/PCIexpress.lib)(options "")(descr ""))
+  (lib (name cm4-carrier-template-cache)(type Legacy)(uri ${KIPRJMOD}/libraries/cm4-carrier-template-cache.lib)(options "")(descr ""))
+  (lib (name hdmi-d)(type Legacy)(uri ${KIPRJMOD}/libraries/hdmi-d/hdmi-d.lib)(options "")(descr ""))
+  (lib (name micro_sd_card_cd)(type Legacy)(uri ${KIPRJMOD}/libraries/micro-sd/micro_sd_card_cd.lib)(options "")(descr ""))
+  (lib (name PCIexpress_x4_half-rescue)(type Legacy)(uri ${KIPRJMOD}/PCIexpress_x4_half-rescue.lib)(options "")(descr ""))
+)
