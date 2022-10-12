@@ -67,7 +67,7 @@
       36
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "ULX4M-PCIe-IO_x4_half.kicad_prl",

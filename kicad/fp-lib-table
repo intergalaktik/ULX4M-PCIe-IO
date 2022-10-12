@@ -1,10 +1,11 @@
 (fp_lib_table
   (lib (name "PCIexpress")(type "KiCad")(uri "${KIPRJMOD}/../Library/PCIexpress.pretty")(options "")(descr ""))
-  (lib (name "cm4")(type "KiCad")(uri "/media/internal/projects/intergalaktik/nlnet/PCIexpress-ulx4m/PCIexpress_x4_half/libraries/cm4")(options "")(descr ""))
   (lib (name "hdmi-d")(type "KiCad")(uri "${KIPRJMOD}/libraries/hdmi-d/hdmi-d.pretty")(options "")(descr ""))
   (lib (name "micro-sd")(type "KiCad")(uri "${KIPRJMOD}/libraries/micro-sd/micro-sd.pretty")(options "")(descr ""))
   (lib (name "intergalaktik")(type "KiCad")(uri "${KIPRJMOD}/libraries/logo/intergalaktik")(options "")(descr ""))
   (lib (name "nlnet")(type "KiCad")(uri "${KIPRJMOD}/libraries/logo/nlnet.pretty")(options "")(descr ""))
   (lib (name "radiona")(type "KiCad")(uri "${KIPRJMOD}/libraries/logo/radiona.pretty")(options "")(descr ""))
   (lib (name "CM4IO")(type "KiCad")(uri "D:/projects/nlnet/ULX4M-PCIe-IO/Library/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "FCR684205-R")(type "KiCad")(uri "D:/projects/nlnet/ULX4M-PCIe-IO/Library/FCR684205-R")(options "")(descr ""))
+  (lib (name "FCR684205-T")(type "KiCad")(uri "D:/projects/nlnet/ULX4M-PCIe-IO/Library/FCR684205-T")(options "")(descr ""))
 )
