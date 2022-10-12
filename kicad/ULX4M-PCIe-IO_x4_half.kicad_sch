@@ -1691,30 +1691,6 @@
     )
   )
 
-  (symbol (lib_id "PCIexpress_x4_half-rescue:Raspberry_Pi_Compute_Module_4_Compute_Module_4_Functional-cm4-carrier-template-cache") (at 114.935 31.115 0) (unit 5)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000063d254ed)
-    (property "Reference" "U1" (at 132.9182 23.8252 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "Raspberry_Pi_Compute_Module_4_Compute_Module_4_Functional" (at 132.9182 26.5176 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "cm4:Raspberry-Pi-4-Compute-Module" (at 120.015 29.845 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (property "Datasheet" "" (at 120.015 34.925 0)
-      (effects (font (size 1.524 1.524)) (justify left) hide)
-    )
-    (instances
-      (project "ULX4M-PCIe-IO_x4_half"
-        (path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1"
-          (reference "U1") (unit 5) (value "Raspberry_Pi_Compute_Module_4_Compute_Module_4_Functional") (footprint "cm4:Raspberry-Pi-4-Compute-Module")
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "hdmi-d:HDMI-D") (at 231.775 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000063d3a132)
@@ -2076,6 +2052,18 @@
     )
   )
 
+  (sheet (at 92.71 48.26) (size 36.83 29.21) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid aaee048f-74e7-455f-95c1-2be2b9e5c5ad)
+    (property "Sheetname" "CM4_module" (at 92.71 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "CM4_module.kicad_sch" (at 92.71 78.0546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1" (page "1"))
     (path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1/00000000-0000-0000-0000-00005d508b15" (page "2"))
@@ -2087,5 +2075,6 @@
     (path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1/00000000-0000-0000-0000-00005d508b15/00000000-0000-0000-0000-00005dba1257" (page "8"))
     (path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1/00000000-0000-0000-0000-00005d508b15/00000000-0000-0000-0000-00005dbb44a0" (page "9"))
     (path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1/00000000-0000-0000-0000-00005d508b15/00000000-0000-0000-0000-00005d516dfb" (page "10"))
+    (path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1/aaee048f-74e7-455f-95c1-2be2b9e5c5ad" (page "11"))
   )
 )
