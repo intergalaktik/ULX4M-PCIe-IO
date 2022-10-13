@@ -13,6 +13,7 @@ Made using guidelines from PCI Express™ Card Electromechanical Specification R
 **FPGA reference boards:**
 
 * https://github.com/gatecat/TrellisBoard
+* https://github.com/enjoy-digital/litex-acorn-baseboard
 
 **Symbols:**
 * x4
