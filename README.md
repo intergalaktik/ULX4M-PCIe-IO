@@ -10,6 +10,10 @@ Made using guidelines from PCI Express™ Card Electromechanical Specification R
 **Template used:**
 * x4 cards: full size, half length, low profile
 
+**FPGA reference boards:**
+
+* https://github.com/gatecat/TrellisBoard
+
 **Symbols:**
 * x4
 * Bracket
