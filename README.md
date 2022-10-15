@@ -1,10 +1,11 @@
 # ULX4M-PCIe-IO
+NLnet funded PCIe board that can hold ULX4M-LD 
 
 ## PCIexpress-KiCad templates
 PCI Express™ libraries and templates for KiCad
 Made using guidelines from PCI Express™ Card Electromechanical Specification Rev. 1.1
 
-![](/pic/example.jpg)
+![](/pic/beta_v2.png)
 
 ### Contents
 **Template used:**
