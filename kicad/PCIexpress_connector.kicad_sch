@@ -1650,7 +1650,7 @@
   (symbol (lib_id "power:+3.3VA") (at 85.09 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005d51ae9c)
-    (property "Reference" "#PWR0106" (at 88.9 48.26 0)
+    (property "Reference" "#PWR0136" (at 88.9 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 81.8642 47.879 90)
@@ -1666,7 +1666,7 @@
     (instances
       (project "ULX4M-PCIe-IO_x4_half"
         (path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1/00000000-0000-0000-0000-00005d508b15"
-          (reference "#PWR0106") (unit 1) (value "+3.3VA") (footprint "")
+          (reference "#PWR0136") (unit 1) (value "+3.3VA") (footprint "")
         )
       )
     )
