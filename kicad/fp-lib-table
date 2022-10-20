@@ -10,4 +10,5 @@
   (lib (name "FCR684205-T")(type "KiCad")(uri "D:/projects/nlnet/ULX4M-PCIe-IO/Library/FCR684205-T")(options "")(descr ""))
   (lib (name "641737-1")(type "KiCad")(uri "D:/projects/nlnet/ULX4M-PCIe-IO/Library/641737-1")(options "")(descr ""))
   (lib (name "39-30-0060")(type "KiCad")(uri "D:/projects/nlnet/ULX4M-PCIe-IO/Library/39-30-0060")(options "")(descr ""))
+  (lib (name "conn-fci")(type "KiCad")(uri "${KIPRJMOD}/libraries/hdmi-d/conn-fci.pretty")(options "")(descr ""))
 )
