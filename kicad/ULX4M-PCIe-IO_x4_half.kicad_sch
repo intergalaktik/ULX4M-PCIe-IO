@@ -5117,7 +5117,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "GPIO15" (shape input) (at -48.26 53.34 0) (fields_autoplaced)
+  (global_label "GPIO14" (shape input) (at -48.26 53.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 77b68edf-f8ed-462f-b3ef-2d3238ec355e)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at -48.26 55.1752 0)
