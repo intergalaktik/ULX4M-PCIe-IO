@@ -824,7 +824,7 @@
       "netlist": "PCIexpress_x4_half.net",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "../3D/ULX4M-PCIe-IO_x4_half.wrl"
     },
     "page_layout_descr_file": ""
   },

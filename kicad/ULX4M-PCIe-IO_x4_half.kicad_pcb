@@ -9905,7 +9905,7 @@
       (net 170 "/CM4_module/GPDI0_SDA") (pinfunction "HDMI0_SDA") (pintype "bidirectional") (tstamp bfe05cf7-b4a5-41f1-812a-8191f75d4552))
     (pad "200" smd rect (at 35 -11.7) (size 0.2 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 171 "/CM4_module/GPDI0_SCL") (pinfunction "HDMI0_SCL") (pintype "open_collector") (tstamp af2bc9a5-2e2e-49bc-bc03-adbe495534be))
-    (model "${KIPRJMOD}/libraries/3D/ulx4m-ld.wrl"
+    (model "D:/projects/nlnet/ULX4M-PCIe-IO/3D/ulx4m-ld.wrl"
       (offset (xyz 110.5 147.5 2))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 90))
@@ -39686,9 +39686,6 @@
     (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp edcdd8c7-366e-4ae1-86e4-5acc7c3c1f2f))
   (gr_line (start 109.475 183.2) (end 109.475 193.625)
     (stroke (width 0.15) (type solid)) (layer "Edge.Cuts") (tstamp f3fb293d-5c66-44f6-bd79-ae76fd0a1112))
-  (gr_text "Board thickness  : 1.56mm\nFinished copper weight inners : 1oz\nFinished copper weight outers : 1oz\n\nBoard finish : OSP\nMaterial type : FR4\nColour of solder resists : Green\nColour of silk screens : White Only on the top side\nBoard to : UL94-V0\nTG >=130\n\n50R trace width 0.13mm@ 3GHz\n90R diff pair width 0.147 spacing 0.253mm @ 2.5GHz\n100R diff pair width 0.127 spacing 0.253mm @ 2GHz" (at 150.295 41.675) (layer "F.Cu") (tstamp 1af3e21f-c3e4-4c7c-9e05-d5de37481efd)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
   (gr_text "Place R38-R45 for PCIe 4X no SFP" (at 147.515 154.535) (layer "B.SilkS") (tstamp 49527b7a-230d-4abb-abcf-f4aa6cb4df36)
     (effects (font (size 0.6 0.6) (thickness 0.12) bold) (justify left bottom mirror))
   )
@@ -39784,6 +39781,9 @@
   )
   (gr_text locked "EXT_REF_CLK1" (at 85.285 116.545) (layer "F.SilkS") (tstamp e6d4d92a-3be4-4e1b-b39f-63f7acb05abb)
     (effects (font (size 0.5 0.5) (thickness 0.125)) (justify left bottom))
+  )
+  (gr_text "Board thickness  : 1.56mm\nFinished copper weight inners : 1oz\nFinished copper weight outers : 1oz\n\nBoard finish : OSP\nMaterial type : FR4\nColour of solder resists : Green\nColour of silk screens : White Only on the top side\nBoard to : UL94-V0\nTG >=130\n\n50R trace width 0.13mm@ 3GHz\n90R diff pair width 0.147 spacing 0.253mm @ 2.5GHz\n100R diff pair width 0.127 spacing 0.253mm @ 2GHz" (at 150.295 41.675) (layer "Cmts.User") (tstamp 1af3e21f-c3e4-4c7c-9e05-d5de37481efd)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (target plus (at 109.625 194.125) (size 5) (width 0.05) (layer "Edge.Cuts") (tstamp e6a67111-6d6b-44b1-ac6b-accf5d415578))
 
