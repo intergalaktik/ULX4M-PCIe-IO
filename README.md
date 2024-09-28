@@ -24,6 +24,31 @@ Made using guidelines from PCI Express™ Card Electromechanical Specification R
 * x4 with multiple card outlines
 * Full height bracket (with 3D model)
 
+## Comfirmed working
+
+- [x] 12V
+- [x] 5V
+- [x] 3.3V
+- [x] DVI
+- [x] WS2812 diodes
+- [x] FTDI ove HAT
+
+## Partially working
+
+- [ ] PCIe loopback is working if TX/RX is bricked on boad edge, but not with PCIe externsion on CM4 IO board
+
+## Not tested
+
+- [ ] GPIOs
+- [ ] SPDIFs
+- [ ] SFPs
+- [ ] PCIe comm to PC
+
+# Not working
+
+- [ ] OLED - pins are not connected on ULX4M
+- [ ] 1x / 4x PCIe selection - it is not connected
+
 ### License
 This documentation describes Open Hardware and is licensed under the CERN OHL v.1.2.
 
