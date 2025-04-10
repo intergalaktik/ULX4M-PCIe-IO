@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "256a485a-dda2-4a57-9cd6-15c55f123417")
 	(paper "A4")
 	(title_block
@@ -10,7 +10,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -129,6 +131,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -208,7 +211,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -225,6 +229,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -322,7 +327,6 @@
 	(hierarchical_label "IN-"
 		(shape input)
 		(at 123.19 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -334,7 +338,6 @@
 	(hierarchical_label "OUT-"
 		(shape output)
 		(at 118.11 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -346,7 +349,6 @@
 	(hierarchical_label "IN+"
 		(shape input)
 		(at 148.59 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -358,7 +360,6 @@
 	(hierarchical_label "OUT+"
 		(shape output)
 		(at 143.51 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -376,7 +377,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d52dcbc")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 122.428 95.3516 0)
 			(effects
 				(font
@@ -457,7 +458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d52e298")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 147.828 95.3516 0)
 			(effects
 				(font
@@ -538,7 +539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d52e619")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0111"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -615,7 +616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d52ec15")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0112"
 			(at 146.05 109.22 0)
 			(effects
 				(font
