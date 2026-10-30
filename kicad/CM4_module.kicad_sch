@@ -7065,7 +7065,7 @@
 	)
 	(hierarchical_label "CAM0_C_P"
 		(shape input)
-		(at 140.97 74.93 180)
+		(at 140.97 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7296,7 +7296,7 @@
 	)
 	(hierarchical_label "CAM0_C_N"
 		(shape input)
-		(at 140.97 77.47 180)
+		(at 140.97 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
