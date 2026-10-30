@@ -13241,12 +13241,12 @@
 		(uuid "1ec78704-8061-41c8-ac9c-eec3edf84c53")
 	)
 	(label "CAM1_D1_N"
-		(at 231.14 234.95 180)
+		(at 29.21 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "20c5b364-19ca-43b4-83be-4b5c3e0b7da1")
 	)
@@ -13291,12 +13291,12 @@
 		(uuid "2823b857-1831-46b2-b74d-e66deb05e76f")
 	)
 	(label "CAM1_D1_P"
-		(at 231.14 232.41 180)
+		(at 29.21 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2aebf715-8ed2-4f90-8519-d41d61d2edda")
 	)
@@ -13611,12 +13611,12 @@
 		(uuid "62031b9c-2f1f-4a6d-b617-fab5d38485c3")
 	)
 	(label "CAM1_D0_N"
-		(at 231.14 241.3 180)
+		(at 29.21 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "66a7c458-b69c-41c5-a9d6-e9cad1492729")
 	)
@@ -14291,12 +14291,12 @@
 		(uuid "e48d63e0-5f23-43c0-8c01-3fa088fed28e")
 	)
 	(label "CAM1_D0_P"
-		(at 231.14 238.76 180)
+		(at 29.21 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f040df17-b4c9-4aeb-b0ae-3f5284ab4ea3")
 	)
@@ -14758,30 +14758,6 @@
 			)
 		)
 	)
-	(global_label "OLED_DC"
-		(shape input)
-		(at 29.21 232.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2799be68-6473-4830-b917-364290b8ec5a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 234.2452 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SDA0"
 		(shape input)
 		(at 308.61 77.47 180)
@@ -14875,30 +14851,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "OLED_RES"
-		(shape input)
-		(at 29.21 229.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2dcb2819-1fc8-4b6e-b842-98a27387c1d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 231.7052 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -15574,30 +15526,6 @@
 			)
 		)
 	)
-	(global_label "OLED_RES"
-		(shape input)
-		(at 87.884 159.004 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5e43fa58-e35d-45bb-90eb-db75a21a1cd5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.7192 159.004 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SFP1_TX_P"
 		(shape input)
 		(at 259.08 153.67 90)
@@ -15835,30 +15763,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "OLED_MOSI"
-		(shape input)
-		(at 85.344 159.004 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6c86c94c-f6bf-4d4a-a9b4-19546e855229")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.1792 159.004 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -16126,30 +16030,6 @@
 			)
 		)
 	)
-	(global_label "OLED_DC"
-		(shape input)
-		(at 90.424 159.004 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7c79b229-8c54-4de9-a221-9b87075a1bc9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.2592 159.004 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "D-"
 		(shape input)
 		(at 300.99 115.57 180)
@@ -16355,30 +16235,6 @@
 		(uuid "93f20193-e17b-4681-8d92-102ab863bca8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 314.96 198.6852 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "OLED_MOSI"
-		(shape input)
-		(at 29.21 227.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "951a0dfd-c346-44e3-9947-eb9e92c86b5e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 229.1652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16627,30 +16483,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "OLED_CLK"
-		(shape input)
-		(at 29.21 224.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad751f57-eaf6-417a-9c5e-42ab650b8075")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 226.6252 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -16979,30 +16811,6 @@
 		(uuid "d213ae74-0a1a-456a-987a-357ef1d0dff9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 32.258 152.9652 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "OLED_CLK"
-		(shape input)
-		(at 82.804 159.004 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d326671e-2949-4e24-a579-b6c761b2ea4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.6392 159.004 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17721,7 +17529,7 @@
 	)
 	(hierarchical_label "CAM_GPIO0"
 		(shape input)
-		(at 234.95 152.4 180)
+		(at 232.41 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21601,7 +21409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -21624,6 +21432,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 105.41 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -21658,7 +21477,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3ffad0df-d669-40de-acfb-26a191e2c33f")
 		(property "Reference" "R25"
 			(at 105.283 234.569 90)
@@ -21680,7 +21499,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -21703,6 +21522,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 105.41 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 105.41 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -23745,6 +23575,85 @@
 			(project "ULX4M-PCIe-IO_x4_half"
 				(path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 232.41 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65cc4145-ea11-4d2e-9ebf-4909d433ad3f")
+		(property "Reference" "R51"
+			(at 236.728 153.416 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 232.664 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 232.41 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14d0ad71-bed3-43aa-80e9-d0c7f9fdbdb1")
+		)
+		(pin "2"
+			(uuid "d4027262-fd04-493f-8a49-24fb6583455e")
+		)
+		(instances
+			(project "ULX4M-PCIe-IO_x4_half"
+				(path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1"
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -33225,6 +33134,86 @@
 			(project "ULX4M-PCIe-IO_x4_half"
 				(path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 229.87 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0d41822-ccdf-4272-912e-3a18ad693cdf")
+		(property "Reference" "#PWR0115"
+			(at 233.68 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 226.06 152.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 229.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1560323d-02be-44bf-a009-6845becf3a1a")
+		)
+		(instances
+			(project "ULX4M-PCIe-IO_x4_half"
+				(path "/e227bafe-08dc-4b2a-9df8-340d24e6faf1"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
