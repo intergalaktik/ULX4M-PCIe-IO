@@ -9197,7 +9197,7 @@
 	)
 	(rectangle
 		(start 15.24 21.59)
-		(end 67.31 34.29)
+		(end 69.342 34.29)
 		(stroke
 			(width 0)
 			(type solid)
@@ -9727,9 +9727,9 @@
 		)
 		(uuid "e9dac2ae-3a4d-4d4a-ae50-2d3f59bc6a03")
 	)
-	(text "${project_name}"
+	(text "${project_name} ${project_version}"
 		(exclude_from_sim no)
-		(at 50.292 17.018 0)
+		(at 40.132 17.526 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -21721,11 +21721,11 @@
 		(at 334.772 188.976 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "46b1f8c7-37e4-4c35-bcba-997a18eaadaa")
 		(property "Reference" "U11"
@@ -24057,11 +24057,11 @@
 		(at 334.01 204.47 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7584ce12-c515-41d6-bfc3-be1bd089ccbd")
 		(property "Reference" "U12"

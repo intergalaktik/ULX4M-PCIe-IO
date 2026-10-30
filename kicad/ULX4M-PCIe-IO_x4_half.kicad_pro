@@ -600,9 +600,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "100R",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 255, 0)",
         "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 255, 0)",
         "track_width": 0.127,
         "tuning_profile": "",
         "via_diameter": 0.45,
@@ -1606,15 +1606,35 @@
       },
       {
         "netclass": "PCIe",
-        "pattern": "SFP*"
-      },
-      {
-        "netclass": "PCIe",
         "pattern": "/REFCLK*"
       },
       {
         "netclass": "DPHY",
         "pattern": "/CAM0_D0_N|/CAM0_D0_P|/CAM0_D1_N|/CAM0_D1_P|/EXT_CLK_REF1_N|/EXT_CLK_REF1_P"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "SFP0_(RX_N|RX_P|TX_N|TX_P)"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "SFP1_(RX_N|RX_P|TX_N|TX_P)"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "SFP(0_RX_N|0_RX_P|0_TX_N|0_TX_P|1_RX_N|1_RX_P|1_TX_N|1_TX_P)"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "SFP1_*"
+      },
+      {
+        "netclass": "100R",
+        "pattern": "SFP1_RX_P"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "SFP1_MOD_ABS"
       }
     ]
   },
@@ -1807,7 +1827,13 @@
       "CM4_module"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "project_creator": "Intergalaktik d.o.o.",
+    "project_license": "CERN-OHL-S v2",
+    "project_name": "ULX4M-PCIe",
+    "project_version": "v0.2",
+    "project_year": "2024"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
